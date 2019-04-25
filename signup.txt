@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<body bgcolor="white">
+<center>
+<h1>SIGNUP</h1>
+<form action="Signup.jsp" method="post"></form>
+
+<table>
+
+<tr>
+<td>First Name:<br></td><td><input type="text" placeholder="Enter First Name" name="fname"><br></td>
+<td>Last Name:<br></td><td><input type="text" placeholder="Enter Last Name" name="lname"><br></td>
+</tr>
+
+<tr>
+<td>Username</td><td><input type="text" placeholder="Enter Username" name="name"></td>
+</tr>
+
+
+<tr>
+<td>Email Address</td><td><input type="text" placeholder="Enter Email Address" name="email"></td>
+</tr>
+
+<tr>
+<td>Password</td><td><input type="password" placeholder="Enter Password" name="pass"></td>
+</tr>
+
+<tr>
+<td>Confirm Password</td><td><input type="password" placeholder="Enter Confirm Password" name="pass"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="Male" checked>Male
+<input type="radio" name="gender" value="Female" checked>Female<br>
+</td>
+</tr>
+
+<td><td><input type="submit" value="SIGNUP"></td></td>
+</table>
+</form>
+</center>
+</body>
+</html>
